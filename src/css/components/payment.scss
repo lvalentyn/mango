@@ -1,0 +1,51 @@
+.payment {
+    padding: 88px 0 100px;
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    &__title {
+        width: 594px;
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-size: 3.6rem;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: #222222;
+    }
+    &__subtitle {
+        width: 594px;
+        margin-top: 19px;
+        font-size: 2.4rem;
+        line-height: 36px;
+        color: #222222;
+    }
+    &__line {
+        width: 64px;
+        height: 8px;
+        margin: 18px 0 50px;
+        background: #F75539;
+        border-radius: 20px;
+    }
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__card {
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        width: calc(240px - 30px);
+        height: 135px;
+        margin-bottom: 30px;
+        border: 3px solid #FFF4EC;
+        box-sizing: border-box;
+        border-radius: 10px;
+        &:hover {
+            background: #FFF4EC;
+            cursor: pointer;
+        }
+    }
+}

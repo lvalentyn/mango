@@ -1,0 +1,42 @@
+.btn {
+    padding: 19px 30px;
+    display: block;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(92.4deg, #84D022 3.47%, #67AB0E 95.56%);
+    cursor: pointer;
+
+    color:#fff;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    &:hover {
+        background: #5DA500;
+    }
+    &:active {
+        background: linear-gradient(92.4deg, #76b81f 3.47%, #73be10 95.56%);
+    }
+    &.btn__header {
+        width: 140px;
+        height: 40px;
+        padding: 0px;
+        background: #fff;
+
+        font-size: 1.4rem;
+        color: #222;
+        &:hover {
+            color: #F75539;
+        }
+        &:active {
+            background: #eee;
+        }
+    }
+    &.btn__payment {
+        margin: 20px auto 0;
+    }
+    &.btn__faq {
+        width: 240px;
+        height: 60px;
+        margin-top: 19px;
+    }
+}

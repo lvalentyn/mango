@@ -1,0 +1,76 @@
+.open {
+    padding: 88px 0 90px;
+    background: #FFFFFF;
+    &__title {
+        font-size: 3.6rem;
+        font-family: 'Montserrat';
+        font-weight: 800;
+        line-height: 44px;
+        text-transform: uppercase;
+        color: #222222;
+        text-align: center;
+    }
+    &__subtitle {
+        font-size: 2.4rem;
+        line-height: 33px;
+        text-align: center;
+        color: #222222;
+    }
+    &__line {
+        margin: 21px auto 50px;
+        width: 64px;
+        height: 8px;
+        background: #F75539;
+        border-radius: 20px;
+    }
+    &__steps {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    &__step {
+        width: 295px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        &_icon {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 14px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &_text {
+            font-size: 1.8rem;
+            line-height: 25px;
+            text-align: center;
+            color: #000000;
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+    &__hand {
+        position: absolute;
+        width: 437px;
+        height: 323;
+        left: -300px;
+        top: 0px;
+    }
+    &__polygon1 {
+        position: absolute;
+        width: 93.6px;
+        height: 93.6px;
+        right: -70px;
+        top: -10px;
+    }
+    &__polygon2{
+        position: absolute;
+        width: 98.87px;
+        height: 90.98px;
+        right: -200px;
+        top: 150px;
+    }
+}

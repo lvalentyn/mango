@@ -1,0 +1,142 @@
+.header {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(to left ,#fe1725, #edad57);
+    position: relative;
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        padding: 0 40px;
+    }
+    &__menu {
+        display: flex;
+        align-items: center;
+    }
+    &__nav {
+        display: flex;
+        &_link {
+            font-size: 1.4rem;
+            color: #fff;
+            text-decoration: none;
+            margin-left: 28px;
+            &:hover {
+                position: relative;
+                font-weight: 700;
+                &::after {
+                    content: "";
+                    width: 100%;
+                    height: 2px;
+                    background-color: #fff;
+                    position: absolute;
+                    left: 0;
+                    bottom: -5px;
+                }
+            }
+        }
+    }
+    .container {
+        padding: 128px 0 181px;
+    }
+    &__subtitle {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 3.4rem;
+        text-transform: uppercase;
+    }
+    &__title {
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-size: 8.6rem;
+        text-transform: uppercase;
+    }
+    &__text {
+        margin-bottom: 27px;
+        width: 291px;
+        text-align: left;
+        font-size: 1.8rem;
+        line-height: 27px;
+
+    }
+    &__man {
+        width: 1030px;
+        height: 864px;
+        position: absolute;
+        right: -150px;
+        bottom: -328px;
+        overflow: hidden;
+    }
+    &__ellipse1 {
+        width: 313px;
+        height: 243px;
+        position: absolute;
+        left: 213px;
+        top: 126px;
+    }
+    &__ellipse2 {
+        width: 218px;
+        height: 218px;
+        position: absolute;
+        left: 615px;
+        top: -54px;
+    }
+    &__ellipse3 {
+        width: 292px;
+        height: 292px;
+        position: absolute;
+        right: -116px;
+        top: 143px;
+    }
+    &__mango1 {
+        width: 108px;
+        height: 111px;
+        position: absolute;
+        top: 391px;
+        left: -250px;
+    }
+    &__mango2 {
+        width: 111px;
+        height: 113px;
+        position: absolute;
+        top: 120px;
+        left: 500px;
+    }
+    &__mango3 {
+        width: 80px;
+        height: 81px;
+        position: absolute;
+        top: 270px;
+        right: -330px;
+        z-index: 10;
+    }
+    &__leaf1 {
+        width: 111px;
+        height: 113px;
+        position: absolute;
+        top: 70px;
+        left: -190px;
+        z-index: 10;
+    }
+    &__leaf2 {
+        width: 47px;
+        height: 55px;
+        position: absolute;
+        top: 0px;
+        left: 282px;
+    }
+    &__leaf3 {
+        width: 74px;
+        height: 86px;
+        position: absolute;
+        bottom: 23px;
+        left: 215px;
+    }
+    &__leaf4 {
+        width: 63px;
+        height: 73px;
+        position: absolute;
+        top: 50px;
+        right: -155px;
+    }
+}

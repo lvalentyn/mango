@@ -1,0 +1,37 @@
+@import "components/fonts";
+@import "components/resetcss";
+@import "components/variables";
+
+
+
+html {
+    font-size: 10px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #fff;
+}
+.page {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+@import "components/btns";
+@import "components/header";
+@import "components/system";
+@import "components/payment";
+@import "components/advantages";
+@import "components/open";
+@import "components/faq";
+@import "components/questions";
+@import "components/footer";

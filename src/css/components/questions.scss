@@ -1,0 +1,180 @@
+.questions {
+    padding: 110px 0 134px;
+    background: linear-gradient(93.34deg, #EDAD57 0%, #FE1725 104.89%);
+    position: relative;
+    &__title {
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-size: 3.6rem;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    &__subtitle {
+        font-size: 2.4rem;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__line {
+        margin: 21px auto 32px;
+        width: 64px;
+        height: 8px;
+        background: #FFFFFF;
+        border-radius: 20px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__tel {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &_icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 17px;
+            width: 49px;
+            height: 49px;
+            background: #fff;
+            border-radius: 100%;
+            img {
+                width: 50%;
+                height: 50%;
+            }
+        }
+        &_descr {
+            font-size: 1.8rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        a {
+            display: block;
+            font-weight: 700;
+            font-size: 2rem;
+            color: #FFFFFF;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    &__mail {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &_icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 17px;
+            width: 49px;
+            height: 49px;
+            background: #fff;
+            border-radius: 100%;
+            img {
+                width: 50%;
+                height: 50%;
+            }
+        }
+        a {
+            display: block;
+            font-weight: 700;
+            font-size: 2rem;
+            color: #FFFFFF;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    &__soc {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        &_icon {
+            font-size: 2.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 30px;
+            width: 49px;
+            height: 49px;
+            color: #F05A22;
+            background: #fff;
+            border-radius: 100%;
+            &:nth-last-child() {
+                margin-right: 0;
+            }
+            &:hover {
+                color: #EDAC57;
+            }
+        }
+    }
+    &__ellipse1 {
+        position: absolute;
+        width: 225px;
+        height: 225px;
+        left: -39px;
+        top: 129px;
+        overflow: hidden;
+    }
+    &__ellipse2 {
+        position: absolute;
+        width: 145px;
+        height: 145px;
+        left: calc(50% - 145px/2 + 218.5px);
+        top: 334px;
+        overflow: hidden;
+    }
+    &__ellipse3 {
+        position: absolute;
+        width: 303px;
+        height: 303px;
+        right: -105px;
+        top: -60px;
+        overflow: hidden;
+    }
+    &__leaf1 {
+        position: absolute;
+        width: 78px;
+        height: 92px;
+        left: 73px;
+        top: 276px;
+        overflow: hidden;
+    }
+    &__leaf2 {
+        position: absolute;
+        width: 78px;
+        height: 92px;
+        right: 56.21px;
+        top: 146px;
+        overflow: hidden;
+    }
+    &__mango1 {
+        position: absolute;
+        width: 78.78px;
+        height: 80.19px;
+        left: 233.04px;
+        top: 27.32px;
+        overflow: hidden;
+    }
+    &__symbl1 {
+        position: absolute;
+        width: 152px;
+        height: 409px;
+        left: calc(50% - 152px/2 - 412px);
+        top: -123px;
+        overflow: hidden;
+    }
+    &__symbl2 {
+        position: absolute;
+        width: 112px;
+        height: 300px;
+        left: calc(50% - 112px/2 + 424px);
+        top: -26px;
+        overflow: hidden;
+    }
+}
