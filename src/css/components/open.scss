@@ -37,10 +37,19 @@
             width: 100px;
             height: 100px;
             margin-bottom: 14px;
-            img {
-                width: 100%;
-                height: 100%;
+            position: relative;
+            // img {
+            //     width: 100%;
+            //     height: 100%;
+            // }
+            &-mini {
+                position: absolute;
+                top: -10px;
+                left: 70px;
+                width: 38px;
+                height: 38px;
             }
+
         }
         &_text {
             font-size: 1.8rem;
@@ -55,7 +64,7 @@
     &__hand {
         position: absolute;
         width: 437px;
-        height: 323;
+        height: 323px;
         left: -300px;
         top: 0px;
     }

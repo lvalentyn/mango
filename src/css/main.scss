@@ -1,6 +1,6 @@
 @import "components/fonts";
 @import "components/resetcss";
-@import "components/variables";
+@import "components/media";
 
 
 
@@ -24,6 +24,9 @@ body {
     width: 1170px;
     margin: 0 auto;
     position: relative;
+    div {
+        z-index: 100;
+    }
 }
 
 @import "components/btns";

@@ -36,9 +36,6 @@
         }
         &_bot {
             height: 126px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
         &_circle {
             display: flex;
@@ -58,9 +55,9 @@
             color: #222222;
         }
         &_descr {
-            width: 292px;
+            padding: 23px 28px 13px;
             font-weight: 400;
-            font-size: 1.4rem;
+            font-size: 1.6rem;
             line-height: 25px;
             color: #222222;
             text-align: center;

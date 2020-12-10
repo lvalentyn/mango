@@ -1,16 +1,10 @@
-<svg width="114" height="112" viewBox="0 0 114 112" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="50" cy="62" r="50" fill="url(#paint0_linear)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M45.8 60.1529C43.9106 60.1529 43.9106 63.5374 45.8 63.5374C46.4297 63.5374 46.9021 62.9221 47.0595 62.1529H48.1617V61.3837H47.0595C46.9021 60.6145 46.4297 60.1529 45.8 60.1529Z" fill="white"/>
-<path d="M54.1447 41.5383H67.2127V82.152H54.1447V79.9983H65.0085V43.6921H54.1447V41.5383Z" fill="white"/>
-<path d="M52.7277 38V85.6903L31 81.9982V41.6922L52.7277 38ZM50.5234 40.6153L33.2043 43.5382V80.1521L50.5234 83.0751V40.6153Z" fill="white"/>
-<circle cx="95" cy="19" r="17.5" fill="url(#paint1_linear)" stroke="white" stroke-width="3"/>
-<path d="M98.0059 26H94.4814V19.1973C94.4814 18.3711 94.499 17.6152 94.5342 16.9297C94.3174 17.1934 94.0479 17.4688 93.7256 17.7559L92.2666 18.96L90.4648 16.7451L94.877 13.1504H98.0059V26Z" fill="white"/>
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="50" cy="50" r="50" fill="url(#paint0_linear)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M45.8 48.1529C43.9106 48.1529 43.9106 51.5374 45.8 51.5374C46.4298 51.5374 46.9021 50.9221 47.0596 50.1529H48.1617V49.3837H47.0596C46.9021 48.6145 46.4298 48.1529 45.8 48.1529Z" fill="white"/>
+<path d="M54.1446 29.5383H67.2127V70.152H54.1446V67.9983H65.0084V31.6921H54.1446V29.5383Z" fill="white"/>
+<path d="M52.7277 26V73.6903L31 69.9982V29.6922L52.7277 26ZM50.5234 28.6153L33.2043 31.5382V68.1521L50.5234 71.0751V28.6153Z" fill="white"/>
 <defs>
-<linearGradient id="paint0_linear" x1="23" y1="21" x2="75" y2="105.5" gradientUnits="userSpaceOnUse">
-<stop stop-color="#F75539"/>
-<stop offset="1" stop-color="#EF9B51"/>
-</linearGradient>
-<linearGradient id="paint1_linear" x1="83.5" y1="7.5" x2="102" y2="33.5" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear" x1="23" y1="9" x2="75" y2="93.5" gradientUnits="userSpaceOnUse">
 <stop stop-color="#F75539"/>
 <stop offset="1" stop-color="#EF9B51"/>
 </linearGradient>

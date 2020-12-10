@@ -159,17 +159,25 @@
         border-radius: 10px;
         &.mango {
             background: url(../../img/s6/bgmango.svg) center center/cover no-repeat, linear-gradient(98.24deg, #EDAD57 0.32%, #FE1725 117.97%);
+            .faq__card_title {
+                font-family: 'Montserrat';
+                font-weight: 800;
+                font-size: 4rem;
+                line-height: 49px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
         }
         &.money {
             background: url(../../img/s6/bgmoney.svg) center center/cover no-repeat;
-        }
-        &_title {
-            font-family: 'Montserrat';
-            font-weight: 800;
-            font-size: 2.8rem;
-            line-height: 34px;
-            text-transform: uppercase;
-            color: #FFFFFF;
+            .faq__card_title {
+                font-family: 'Montserrat';
+                font-weight: 800;
+                font-size: 2.8rem;
+                line-height: 34px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
         }
         &_descr {
             font-size: 1.8rem;

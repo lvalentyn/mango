@@ -1,0 +1,278 @@
+.page {
+
+@media (max-width: 1170px) {
+    .container {
+        width: 940px;
+    }
+       .header {
+           .container {
+            padding: 132px 0 161px 125px;
+           }
+             &__man {
+            width: 750px;
+            height: 750px;
+            left: 300px;
+            bottom: -298px;
+            }
+            &__ellipse1 {
+                left: -90px;
+                top: 136px;
+            }
+            &__ellipse2 {
+                left: 245px;
+                top: -54px;
+            }
+            &__ellipse3 {
+                display: none;
+            }
+            &__mango1 {
+                top: 420px;
+                left: 30px;
+            }
+            &__mango2 {
+                width: 81px;
+                height: 83px;
+                top: 250px;
+                left: 480px;
+            }
+            &__mango3 {
+                top: 270px;
+                left: 850px;
+                z-index: 10;
+            }
+            &__leaf1 {
+                top: 10px;
+                left: 50px;
+                z-index: 10;
+            }
+            &__leaf2 {
+                top: 0px;
+                left: 310px;
+            }
+            &__leaf3 {
+                bottom: 23px;
+                left: 215px;
+            }
+            &__leaf4 {
+                top: 30px;
+                left: 725px;
+            }
+        } 
+        .system {
+            padding: 82px 0 97px;
+            &__title {
+                width: 600px;
+                font-size: 3.2rem;
+            }
+            &__card {
+                width: 300px;
+                &_top {
+                    height: 139px;
+                }
+                &_bot {
+                    height: 146px;
+                }
+            }
+        }
+        .payment {
+            padding: 81px 0 90px;
+            &__title {
+                font-size: 3.2rem;
+                width: 545px;
+            }
+            &__subtitle {
+                font-size: 2.2rem;
+                width: 500px;
+            }
+            &__card {
+                width: calc(192px - 20px);
+            }
+        }
+        .advantages {
+            padding: 81px 0 90px;
+            &__title {
+                font-size: 3.2rem;
+            }
+            &__card {
+                width: 300px;
+                height: 323px;
+                &_title {
+                    font-size: 1.6rem;
+                }
+            }
+            &__mango1 {
+                left: 100px;
+                top: -35px;
+            }
+            &__mango2 {
+                top: 300px;
+                right: -155px;
+            }
+            &__leaf1 {
+                top: 300px;
+                left: -107px;
+            }
+            &__leaf2 {
+                top: -50px;
+                right: 100px;
+            }
+            &__ellipse1 {
+                top: 30px;
+                left: -120px;
+            }
+            &__ellipse2 {
+                left: 0px;
+                top: 541px;
+            }
+            &__ellipse3 {
+                left: 304px;
+                top: -31px;
+            }
+            &__ellipse4 {
+                right: 100px;
+                top: 489px;
+            }
+            &__ellipse5 {
+                right: -180px;
+                top: -80px;
+            }
+
+        }
+        .open {
+            padding: 82px 0 90px;
+            &__title {
+              font-size: 3.2rem;  
+            }
+            &__subtitle {
+                font-size: 2.2rem;
+            }
+            &__step {
+                &_icon {
+                    &-mini {
+                        top: -10px;
+                        left: -10px;
+                    }
+                }
+            }
+            &__hand {
+                width: 367px;
+                height: 272px;
+                left: -250px;
+                top: 0px;
+            }
+            &__polygon1 {
+                display: none;
+            }
+            &__polygon2{
+                display: none;
+            }
+        }
+        .faq {
+            padding: 82px 0 90px;
+            &__title {
+                font-size: 3.2rem;
+            }
+            &__line {
+                width: 81.7px;
+                height: 8px;
+            }
+            &__wrapper {
+                &_col {
+                    width: calc(480px - 20px);
+                }
+            }
+            &__item {
+                &_title {
+                    &::after {
+                        color: #D0D0D0;
+                    }
+                }  
+                &_descr {
+                    margin-top: 20px;
+                }
+                &_input {
+                    &:checked ~ {
+                        .faq__item_title {
+                            &::after {
+                                background-color: #D0D0D0;
+                            }
+                        }
+                    }
+                }
+            }
+            &__card {
+                margin: 90px 10px 0;
+            }
+        }
+        .questions {
+            padding: 91px 0 97px;
+            &__title {
+                font-size: 3.2rem;
+            }
+            &__subtitle {
+                font-size: 2.2rem;
+            }
+            &__tel {
+                width: 33%;
+                a {
+                    font-size: 1.8rem;
+                }
+            }
+            &__mail {
+                width: 33%;
+                font-size: 1.8rem;
+            }
+            &__soc {
+                width: 33%;
+            }
+            &__ellipse1 {
+                left: -150px;
+                top: 100px;
+            }
+            &__ellipse2 {
+                left: 680px;
+                top: 284px;
+            }
+            &__ellipse3 {
+                right: -145px;
+                top: -110px;
+            }
+            &__leaf1 {
+                position: absolute;
+                width: 78px;
+                height: 92px;
+                left: 23px;
+                top: 246px;
+                overflow: hidden;
+            }
+            &__leaf2 {
+                right: 50px;
+                top: 66px;
+                z-index: 10;
+            }
+            &__mango1 {
+                left: 40px;
+                top: 27px;
+            }
+            &__symbl1 {
+                width: 122px;
+                height: 327px;
+                left: 100px;
+                top: -100px;
+            }
+            &__symbl2 {
+                width: 91px;
+                height: 246px;
+                right: 130px;
+                top: -46px;
+            }
+        }
+        
+    }
+   
+@media (max-width: 940px) {}
+@media (max-width: 764px) {}
+@media (max-width: 480px) {}
+@media (max-width: 320px) {}
+
+}
