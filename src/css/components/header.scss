@@ -1,17 +1,36 @@
 .header {
     width: 100%;
-     background: linear-gradient(to left ,#fe1725, #edad57);
+    padding-top: 80px;
+    background: linear-gradient(to left ,#fe1725, #edad57);
     position: relative;
     &__top {
+        z-index: 200;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 80px;
-        padding: 0 40px;
+        transition: all .8s;
+        &.sticky {
+            background: linear-gradient(277.57deg, #FE1725 0%, #EDAD57 100%);
+            
+        }
     }
     &__menu {
         display: flex;
         align-items: center;
+    }
+    &__logo {
+        margin-left: 40px;
+        width: 61px;
+        height: 50px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
     }
     &__nav {
         display: flex;
@@ -56,15 +75,36 @@
         text-align: left;
         font-size: 1.8rem;
         line-height: 27px;
-
     }
     &__man {
-        width: 1030px;
-        height: 864px;
         position: absolute;
-        right: -150px;
-        bottom: -325px;
+        width: 670px;
+        height: 592px;
+        left: 435px;
+        bottom: 0px;
         overflow: hidden;
+        z-index: 10;
+    }
+    &__mancircle1 {
+        position: absolute;
+        width: 606px;
+        height: 606px;
+        left: 573px;
+        top: 129px;
+    }
+    &__mancircle2 {
+        position: absolute;
+        width: 740px;
+        height: 740px;
+        left: 503px;
+        top: 62px;
+    }
+    &__mancircle3 {
+        position: absolute;
+        width: 864px;
+        height: 864px;
+        left: 433px;
+        top: 0px;
     }
     &__ellipse1 {
         width: 313px;
@@ -88,54 +128,63 @@
         top: 143px;
     }
     &__mango1 {
-        width: 108px;
-        height: 111px;
         position: absolute;
-        top: 391px;
-        left: -250px;
+        width: 79.59px;
+        height: 81.02px;
+        left: 170.26px;
+        top: 461px;
+        filter: blur(3px);
+        transform: rotate(38.34deg);
     }
     &__mango2 {
+        position: absolute;
         width: 111px;
         height: 113px;
-        position: absolute;
-        top: 120px;
-        left: 500px;
+        top: 71px;
+        left: 449px;
+        z-index: 10;
     }
     &__mango3 {
-        width: 80px;
-        height: 81px;
         position: absolute;
-        top: 270px;
-        right: -330px;
-        z-index: 10;
+        width: 79.59px;
+        height: 81.02px;
+        right: 54.45px;
+        top: 350px;
+        filter: blur(2px);
+        transform: rotate(86.4deg);
     }
     &__leaf1 {
-        width: 111px;
-        height: 113px;
         position: absolute;
-        top: 70px;
-        left: -190px;
-        z-index: 10;
+        width: 87px;
+        height: 103px;
+        left: 152px;
+        top: 208.02px;
     }
     &__leaf2 {
-        width: 47px;
-        height: 55px;
         position: absolute;
-        top: 0px;
-        left: 282px;
+        width: 76.86px;
+        height: 85.48px;
+        left: calc(50% - 46.86px/2 - 323.98px);
+        top: 82.5px;
+        filter: blur(1px);
+        transform: rotate(116.73deg);
     }
     &__leaf3 {
-        width: 74px;
-        height: 86px;
         position: absolute;
-        bottom: 23px;
-        left: 215px;
+        width: 84.04px;
+        height: 95.82px;
+        left: calc(50% - 64.04px/2 - 350.5px);
+        top: 584px;
+        filter: blur(1px);
+        transform: rotate(91.25deg);
     }
     &__leaf4 {
-        width: 63px;
-        height: 73px;
         position: absolute;
-        top: 50px;
-        right: -155px;
+        width: 83.22px;
+        height: 93.01px;
+        right: 191.58px;
+        top: 119.72px;
+        filter: blur(3px);
+        transform: rotate(50.09deg);
     }
 }

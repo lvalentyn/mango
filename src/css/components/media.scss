@@ -5,57 +5,71 @@
         width: 940px;
     }
        .header {
-           .container {
-            padding: 132px 0 161px 125px;
+            .container {
+            padding: 132px 0 161px 0px;
            }
-             &__man {
-            width: 750px;
-            height: 750px;
-            left: 300px;
-            bottom: -298px;
+           &__man {
+            width: 581.6px;
+            height: 513.89px;
+            left: 355px;
+            bottom: 0px;
+            }
+            &__mancircle1 {
+                width: 526.04px;
+                height: 526.04px;
+                left: 476px;
+                top: 178px;
+            }
+            &__mancircle2 {
+                width: 642.36px;
+                height: 642.36px;
+                left: 419px;
+                top: 125px;
+            }
+            &__mancircle3 {
+                width: 750px;
+                height: 750px;
+                left: 360px;
+                top: 73px;
             }
             &__ellipse1 {
-                left: -90px;
-                top: 136px;
+                left: -91px;
+                top: 145px;
             }
             &__ellipse2 {
-                left: 245px;
-                top: -54px;
+                left: 243px;
+                top: -36px;
             }
             &__ellipse3 {
-                display: none;
+               display: none;
             }
             &__mango1 {
-                top: 420px;
-                left: 30px;
+                left: 28.26px;
+                top: 516px;
             }
             &__mango2 {
-                width: 81px;
-                height: 83px;
-                top: 250px;
-                left: 480px;
+                top: 142px;
+                left: 377px;
             }
             &__mango3 {
-                top: 270px;
-                left: 850px;
-                z-index: 10;
+                right: 23.45px;
+                top: 287px;
             }
             &__leaf1 {
-                top: 10px;
-                left: 50px;
-                z-index: 10;
+                left: 66px;
+                top: 88px;
             }
             &__leaf2 {
-                top: 0px;
-                left: 310px;
+                left: calc(50% - 46.86px/2 - 258.98px);
+                top: 62.5px;
             }
             &__leaf3 {
-                bottom: 23px;
-                left: 215px;
+                left: calc(50% - 64.04px/2 - 331.5px);
+                top: 550px;
             }
             &__leaf4 {
-                top: 30px;
-                left: 725px;
+                right: 170.58px;
+                top: 72.72px;
             }
         } 
         .system {
@@ -86,6 +100,7 @@
             }
             &__card {
                 width: calc(192px - 20px);
+                margin-bottom: 20px;
             }
         }
         .advantages {
@@ -101,42 +116,51 @@
                 }
             }
             &__mango1 {
-                left: 100px;
-                top: -35px;
+                width: 80.11px;
+                height: 81.55px;
+                left: 60.82px;
+                top: -32px;
             }
             &__mango2 {
-                top: 300px;
-                right: -155px;
+                right: -108px;
+                top: 337px;
             }
             &__leaf1 {
-                top: 300px;
-                left: -107px;
+                left: -97.13px;
+                top: 319px;
             }
             &__leaf2 {
-                top: -50px;
-                right: 100px;
+                width: 69.49px;
+                height: 82.56px;
+                top: -40px;
+                right: 123px;
             }
             &__ellipse1 {
-                top: 30px;
-                left: -120px;
+                width: 239px;
+                height: 239px;
+                top: 42px;
+                left: -46px;
             }
             &__ellipse2 {
-                left: 0px;
-                top: 541px;
+                width: 121px;
+                height: 121px;
+                left: 15px;
+                top: 523px;
             }
             &__ellipse3 {
-                left: 304px;
-                top: -31px;
+                left: 253px;
+                top: -42px;
             }
             &__ellipse4 {
-                right: 100px;
-                top: 489px;
+                right: 164px;
+                top: 500px;
             }
             &__ellipse5 {
-                right: -180px;
-                top: -80px;
+                width: 249px;
+                height: 249px;
+                right: -123px;
+                top: -85px;
             }
-
         }
         .open {
             padding: 82px 0 90px;
@@ -226,51 +250,476 @@
                 width: 33%;
             }
             &__ellipse1 {
-                left: -150px;
-                top: 100px;
+                left: -148px;
+                top: 112px;
             }
             &__ellipse2 {
-                left: 680px;
-                top: 284px;
+                left: calc(50% - 145px/2 + 208.5px);
+                 top: 286px;
             }
             &__ellipse3 {
-                right: -145px;
-                top: -110px;
+                right: -165px;
+                top: -70px;
             }
             &__leaf1 {
-                position: absolute;
-                width: 78px;
-                height: 92px;
-                left: 23px;
-                top: 246px;
-                overflow: hidden;
+                width: 66px;
+                height: 78px;
+                left: -85px;
+                top: 157px;
             }
             &__leaf2 {
-                right: 50px;
-                top: 66px;
-                z-index: 10;
+                right: -73.79px;
+                top: 20px;
             }
             &__mango1 {
-                left: 40px;
-                top: 27px;
+                left: -73.96px;
+                top: -65.68px;
             }
             &__symbl1 {
                 width: 122px;
                 height: 327px;
-                left: 100px;
-                top: -100px;
+                left: 42px;
+                top: -195px;
             }
             &__symbl2 {
                 width: 91px;
                 height: 246px;
-                right: 130px;
-                top: -46px;
+                right: 57px;
+                top: -145px;
             }
         }
-        
     }
-   
-@media (max-width: 940px) {}
+@media (max-width: 940px) {
+    .container {
+        width: 724px;
+    }
+    .btn {
+        padding: 15px 27px;
+        &.btn__header {
+            margin-right: 30px;
+        }
+        &.btn__faq {
+            width: 220px;
+            height: 50px;
+        }
+    }
+    .darkbg {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        background: #000;
+        opacity: 0;
+        transition: all .3s ease-in;
+        z-index: 180;
+    }
+    .darkbg.dark {
+        opacity: 0.3;
+    } 
+    .header {
+        .container {
+           padding: 86px 0 200px 0px;
+        }
+        &__title {
+            font-size: 7rem;
+        }
+        &__subtitle {
+            font-size: 2.8rem;
+        }
+        .burger {
+            display: block;
+        }
+        &__nav {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 50%;
+            height: 100vh;
+            padding-top: 100px;
+            background: linear-gradient(166.5deg, #EDAD57 0%, #FE1725 100%);
+            transform: translateX(-100%);
+            transition: transform 0.5s ease-in;
+            z-index: 111;
+            &_item {
+                width: 100%;
+                height: 70px;
+                font-size: 2.4rem;
+                opacity: 0;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+                &:nth-child(6) {
+                    border: none;
+                }
+            }
+            &_link {
+                display: flex;
+                align-items: center;
+                height: 100%;
+                padding-left: 26px;
+                margin: 0;
+                &:hover {
+                  
+                    &::after {
+                        content: none;
+                    }
+                }
+            }
+            &.nav-active {
+                transform: translateX(0%);
+            }
+        }
+        &__man {
+        width: 586.25px;
+        height: 518px;
+        left: 287px;
+        bottom: 0px;
+        }
+        &__mancircle1 {
+            width: 530.25px;
+            height: 530.25px;
+            left: 400px;
+            top: 150px;
+        }
+        &__mancircle2 {
+            width: 647.5px;
+            height: 647.5px;
+            left: 345px;
+            top: 85px;
+        }
+        &__mancircle3 {
+            width: 756px;
+            height: 756px;
+            left: 290px;
+            top: 30px;
+        }
+        &__ellipse1 {
+            left: -78px;
+            top: 147px;
+        }
+        &__ellipse2 {
+            width: 162.73px;
+            height: 158px;
+            left: 228px;
+            top: -42px;
+        }
+        &__ellipse3 {
+           display: none;
+        }
+        &__mango1 {
+            width: 81.06px;
+            height: 81.96px;
+            left: 22.26px;
+            top: 450px;
+        }
+        &__mango2 {
+            width: 72px;
+            height: 71px;
+            left: 325.26px;
+            top: 177px;
+        }
+        &__mango3 {
+            display: none;
+        }
+        &__leaf1 {
+            left: 83px;
+            top: 71px;
+        }
+        &__leaf2 {
+            display: none;
+        }
+        &__leaf3 {
+            left: calc(50% - 64.04px/2 - 169.5px);
+            top: 508px;
+        }
+        &__leaf4 {
+            right: 272.58px;
+            top: 46.72px;
+        }
+    } 
+    .system {
+        padding: 72px 0 90px;
+        &__title {
+            width: 565px;
+            font-size: 3rem;
+            line-height: 42px;
+        }
+        &__line {
+            margin: 15px auto 30px;
+        }
+        &__cards {
+            flex-direction: column;
+        }
+        &__card {
+            display: flex;
+            width: 724px;
+            margin-top: 20px;
+            &_top {
+                width: 310px;
+                height: 152px;
+                border-bottom:none;
+                border-right: 3px solid #FFF4EC;
+            }
+            &_bot {
+                width: 410px;
+                height: 152px;
+                display: flex;
+                align-items: center;
+            }
+            &_title {
+                width: 120px;
+            }
+            &_descr {
+                padding: 23px 57px 13px 38px;
+                text-align: left;
+            }
+        }
+    }
+    .payment {
+        padding: 81px 0 80px;
+        &__title {
+            width: 350px;
+            font-size: 3rem;
+            line-height: 42px;
+        }
+        &__subtitle {
+            width: 350px;
+            font-size: 1.8rem;
+            line-height: 27px;
+        }
+        &__logo {
+            width: 262px;
+            height: 160px;
+        }
+        &__cards {
+            justify-content: center;
+        }
+        &__card {
+            width: 166px;
+            margin-right: 20px;
+            
+            &:nth-child(4) {
+                margin-right: 0;
+            }
+            margin-right: 20px;
+            &:nth-child(8) {
+                margin-right: 0;
+            }
+            &:nth-child(10) {
+                margin-right: 0;
+            }
+        }
+    }
+    .btn {
+        &.btn__payment {
+            margin: 30px auto 0;
+        }
+    }
+    .advantages {
+        padding: 72px 0 80px;
+        &__title {
+            font-size: 3rem;
+        }
+        &__line {
+            margin: 27px auto 30px;
+        }
+        &__cards {
+            flex-direction: column;
+        }
+        &__card {
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+            &_title {
+                width: 335px;
+            }
+            &_line {
+                margin: 0px 0px 18px 39px;
+            }
+            &_descr {
+                width: 542px;
+                padding: 0 35px 36px 39px;
+            }
+        }
+        &__mango1 {
+            left: -37.18px;
+            top: -5px;
+        }
+        &__mango2 {
+            display: none;
+        }
+        &__leaf1 {
+            left: 36.87px;
+            top: 706px;
+        }
+        &__leaf2 {
+            top: -43px;
+            right: 40px;
+        }
+        &__ellipse1 {
+            top: 380px;
+            left: -28px;
+        }
+        &__ellipse2 {
+            display: none;
+        }
+        &__ellipse3 {
+            left: 194px;
+            top: -31px;
+        }
+        &__ellipse4 {
+            width: 163px;
+            height: 163px;
+            right: -33px;
+            top: 741px;
+        }
+        &__ellipse5 {
+            right: -81px;
+            top: 181px;
+        }
+
+    }
+    .open {
+        padding: 72px 0 85px;
+        &__title {
+          font-size: 3rem;  
+        }
+        &__subtitle {
+            font-size: 1.8rem;
+        }
+        &__steps {
+            justify-content: space-between;
+            align-items: start;
+        }
+        &__step {     
+            width: 227px;   
+            &_icon {
+                &-mini {
+                    top: -10px;
+                    left: 70px;
+                }
+            }
+        }
+        &__hand {
+            display: none;
+        }
+    }
+    .faq {
+        padding: 72px 0 79px;
+        &__title {
+            font-size: 3rem;
+        }
+        &__line {
+            margin: 27px auto 30px;
+        }
+        &__wrapper {
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: 60px;
+            &_col {
+                width: 100%;
+            }
+        }
+        &__item {
+            margin-top: 20px;
+            margin-bottom: 0;
+        }
+        &__cards {
+            flex-direction: column;
+            width: 100%;
+        }
+        &__card {
+            margin: 20px 0 0;
+            width: auto;
+            &.money {
+                .faq__card_title {
+                    font-size: 2.6rem;
+                }
+            }
+            &_descr {
+                width: 290px;
+            }
+        }
+    }
+    .questions {
+        padding: 72px 0 84px;
+        &__title {
+            font-size: 3rem;
+        }
+        &__subtitle {
+            font-size: 1.8rem;
+        }
+        &__tel {
+            width: 33%;
+            &_icon {
+                width: 38px;
+                height: 38px;
+            }
+            &_descr {
+                font-size: 1.6rem;
+            }
+            a {
+                font-size: 1.6rem;
+            }
+        }
+        &__mail {
+            width: 33%;
+            &_icon {
+                width: 38px;
+                height: 38px;
+            }
+            a {
+                font-size: 1.6rem;
+            }
+        }
+        &__soc {
+            width: 33%;
+            &_icon {
+                margin-right: 20px;
+                font-size: 2.1rem;
+                width: 38px;
+                height: 38px;
+            }
+        }
+        &__ellipse1 {
+            left: -121px;
+            top: 72px;
+        }
+        &__ellipse2 {
+            left: calc(50% - 145px/2 + 210.5px);
+            top: 229px;
+        }
+        &__ellipse3 {
+            display: none;
+        }
+        &__leaf1 {
+            width: 52px;
+            height: 62px;
+            left: -96px;
+            top: 158px;
+        }
+        &__leaf2 {
+            width: 49.73px;
+            height: 58.65px;
+            right: -37.79px;
+            top: 70px;
+        }
+        &__mango1 {
+            left: -73.96px;
+            top: -44.68px;
+        }
+        &__symbl1 {
+            display: none;
+        }
+        &__symbl2 {
+            right: -40px;
+            top: -140px;
+        }
+    }
+    
+}
 @media (max-width: 764px) {}
 @media (max-width: 480px) {}
 @media (max-width: 320px) {}

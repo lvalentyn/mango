@@ -2,29 +2,78 @@
     padding: 90px 0 100px;
     background: linear-gradient(273.59deg, #FE1725 0%, #EDAD57 100%);
     position: relative;
+    &__title {
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-size: 3.6rem;
+        line-height: 44px;
+        text-align: center;
+    }
+    &__line {
+        margin: 27px auto 50px;
+        width: 64px;
+        height: 8px;
+        background: #FFFFFF;
+        border-radius: 20px;
+    }
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__card {
+        width: 370px;
+        height: 281px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        &_header{
+            display: flex;
+            justify-content: space-between;
+            padding: 31px 39px 0;
+        }
+        &_title {
+            width: 213px;
+            font-size: 1.8rem;
+            font-weight: 800;
+            line-height: 28px;
+            color: #222;
+        }
+        &_line {
+            width: 44px;
+            height: 5px;
+            margin: 27px 0px 24px 39px;
+            background: #F75539;
+            border-radius: 20px;
+        }
+        &_descr {
+            padding: 0 35px 0 39px;
+            color: #222222;
+        }
+    }
     &__mango1 {
         position: absolute;
         width: 111px;
         height: 113px;
-        left: -155.18px;
-        top: 15px;
-        overflow: hidden;
+        left: -165.18px;
+        top: 0px;
+        transform: rotate(17.61deg);
     }
     &__mango2 {
         position: absolute;
-        width: 98px;
-        height: 100px;
-        top: 250px;
-        right: -280px;
-        overflow: hidden;
+        width: 78.35px;
+        height: 79.76px;
+        right: -300px;
+        top:254px;
+        filter: blur(3px);
+        transform: rotate(17.61deg);
     }
     &__leaf1 {
         position: absolute;
-        width: 69px;
-        height: 82px;
-        top: 300px;
-        left: -237px;
-        overflow: hidden;
+        width: 69.49px;
+        height: 82.56px;
+        left: -237.13px;
+        top: 340px;
+        filter: blur(2px);
+        transform: rotate(54.39deg);
     }
     &__leaf2 {
         position: absolute;
@@ -74,53 +123,4 @@
         top: -80px;
         overflow: hidden;
     }
-
-    &__title {
-        font-family: 'Montserrat';
-        font-weight: 800;
-        font-size: 3.6rem;
-        line-height: 44px;
-        text-align: center;
-    }
-    &__line {
-        margin: 27px auto 50px;
-        width: 64px;
-        height: 8px;
-        background: #FFFFFF;
-        border-radius: 20px;
-    }
-    &__cards {
-        display: flex;
-        justify-content: space-between;
-    }
-    &__card {
-        width: 370px;
-        height: 281px;
-        background: #FFFFFF;
-        border-radius: 10px;
-        &_header{
-            display: flex;
-            justify-content: space-between;
-            padding: 31px 39px 0;
-        }
-        &_title {
-            width: 213px;
-            font-size: 1.8rem;
-            font-weight: 800;
-            line-height: 28px;
-            color: #222;
-        }
-        &_line {
-            width: 44px;
-            height: 5px;
-            margin: 27px 0px 24px 39px;
-            background: #F75539;
-            border-radius: 20px;
-        }
-        &_descr {
-            padding: 0 35px 0 39px;
-            color: #222222;
-        }
-    }
-
 }

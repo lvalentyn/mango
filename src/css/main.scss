@@ -25,9 +25,11 @@ body {
     margin: 0 auto;
     position: relative;
     div {
-        z-index: 100;
+        z-index: 150;
     }
 }
+
+
 
 @import "components/btns";
 @import "components/header";
@@ -38,3 +40,4 @@ body {
 @import "components/faq";
 @import "components/questions";
 @import "components/footer";
+@import "components/burgermenu";
