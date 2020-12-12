@@ -51,6 +51,10 @@
         border: 3px solid #FFF4EC;
         box-sizing: border-box;
         border-radius: 10px;
+        img {
+            width: 60%;
+            height: 60%;
+        }
         &:hover {
             background: #FFF4EC;
             cursor: pointer;
