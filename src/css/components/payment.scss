@@ -60,4 +60,8 @@
             cursor: pointer;
         }
     }
+    &__polygon1, &__polygon2, &__polygon3, &__polygon4 {
+        display: none;
+        position: absolute;
+    }
 }

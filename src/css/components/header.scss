@@ -53,6 +53,9 @@
                 }
             }
         }
+        .questions__soc {
+            display: none;
+        }
     }
     .container {
         padding: 129px 0 183px;
@@ -62,12 +65,14 @@
         font-weight: 700;
         font-size: 3.4rem;
         text-transform: uppercase;
+        z-index: 20;
     }
     &__title {
         font-family: 'Montserrat';
         font-weight: 800;
         font-size: 8.6rem;
         text-transform: uppercase;
+        z-index: 20;
     }
     &__text {
         margin-bottom: 27px;
@@ -75,6 +80,7 @@
         text-align: left;
         font-size: 1.8rem;
         line-height: 27px;
+        z-index: 20;
     }
     &__man {
         position: absolute;
@@ -91,6 +97,7 @@
         height: 606px;
         left: 573px;
         top: 129px;
+
     }
     &__mancircle2 {
         position: absolute;
@@ -135,6 +142,8 @@
         top: 461px;
         filter: blur(3px);
         transform: rotate(38.34deg);
+        overflow: hidden;
+        z-index: 10;
     }
     &__mango2 {
         position: absolute;
@@ -152,6 +161,7 @@
         top: 350px;
         filter: blur(2px);
         transform: rotate(86.4deg);
+        z-index: 10;
     }
     &__leaf1 {
         position: absolute;
@@ -159,6 +169,7 @@
         height: 103px;
         left: 152px;
         top: 208.02px;
+        z-index: 10;
     }
     &__leaf2 {
         position: absolute;
@@ -168,6 +179,7 @@
         top: 82.5px;
         filter: blur(1px);
         transform: rotate(116.73deg);
+        z-index: 10;
     }
     &__leaf3 {
         position: absolute;
@@ -177,6 +189,7 @@
         top: 584px;
         filter: blur(1px);
         transform: rotate(91.25deg);
+        z-index: 10;
     }
     &__leaf4 {
         position: absolute;
@@ -186,5 +199,6 @@
         top: 119.72px;
         filter: blur(3px);
         transform: rotate(50.09deg);
+        z-index: 10;
     }
 }
