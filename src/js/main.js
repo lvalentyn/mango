@@ -6,8 +6,7 @@ const miniNav = () => {
 
     burger.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
-        // dark.classList.toggle('dark');
-
+        dark.classList.toggle('dark');/* затемнение */
         navLinks.forEach((link, index) => {
             if (link.style.animation) {
                 link.style.animation = '';
