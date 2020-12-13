@@ -2243,8 +2243,8 @@ body {
     padding-left: 57px;
     border-radius: 10px; }
     .faq__card.mango {
-      background: url(../../img/s6/bgmango.svg) center center/cover no-repeat, -o-linear-gradient(351.76deg, #EDAD57 0.32%, #FE1725 117.97%);
-      background: url(../../img/s6/bgmango.svg) center center/cover no-repeat, linear-gradient(98.24deg, #EDAD57 0.32%, #FE1725 117.97%); }
+      background: url(../img/s6/bgmango.svg) center center/cover no-repeat, -o-linear-gradient(351.76deg, #EDAD57 0.32%, #FE1725 117.97%);
+      background: url(../img/s6/bgmango.svg) center center/cover no-repeat, linear-gradient(98.24deg, #EDAD57 0.32%, #FE1725 117.97%); }
       .faq__card.mango .faq__card_title {
         font-family: 'Montserrat';
         font-weight: 800;
@@ -2253,7 +2253,7 @@ body {
         text-transform: uppercase;
         color: #FFFFFF; }
     .faq__card.money {
-      background: url(../../img/s6/bgmoney.svg) center center/cover no-repeat; }
+      background: url(../img/s6/bgmoney.svg) center center/cover no-repeat; }
       .faq__card.money .faq__card_title {
         font-family: 'Montserrat';
         font-weight: 800;
