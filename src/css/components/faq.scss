@@ -20,14 +20,11 @@
     &__wrapper {
         display: flex;
         justify-content: space-between;
-       
         &_col {
-           
             width: calc(600px - 30px);
         }
     }
     &__item {
-       
         position: relative;
         margin-bottom: 30px;
         border-radius: 10px;
@@ -102,8 +99,9 @@
         }
         &_descr {
             // position: relative;
-            font-size: 16px;
-            line-height: 26px;
+            width: auto;
+            font-size: 0px;
+            line-height: 0px;
             color: #222222;
             background: #FFFFFF;
             border-radius: 10px;
@@ -111,7 +109,7 @@
             padding: 0;
             margin: 0;
             opacity: 0;
-            transition: all .3s ease;
+            transition: all .5s linear;
         }
         &_input {
             width: 0;
@@ -139,6 +137,8 @@
                     height: 100%;
                     margin-top: 30px;
                     padding: 25px 30px 28px 33px;
+                    font-size: 16px;
+                    line-height: 26px;
                     opacity: 1;
                     &::after {
                         content: url(../../img/s6/arrow.svg);
