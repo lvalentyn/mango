@@ -1,42 +1,58 @@
 .btn {
-    padding: 19px 30px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     border: none;
+    width: 240px;
+    height: 60px;
     border-radius: 30px;
     background: linear-gradient(92.4deg, #84D022 3.47%, #67AB0E 95.56%);
     cursor: pointer;
 
+    font-size: 1.6rem;
     color:#fff;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    &:hover {
+    text-decoration: none;
+    outline: none;
+    transition: all .3s ease;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        border-radius: 30px;
         background: #5DA500;
+        z-index: -1;
+        transition: all .3s ease;
     }
-    &:active {
-        background: linear-gradient(92.4deg, #76b81f 3.47%, #73be10 95.56%);
+    &:hover::before {
+        opacity: 1;
     }
+
     &.btn__header {
         width: 140px;
         height: 40px;
-        padding: 0px;
         margin-right: 40px;
         background: #fff;
+        font-weight: 800;
         font-size: 1.4rem;
         color: #222;
         &:hover {
-            color: #F75539;
-        }
-        &:active {
-            background: #eee;
+            background: #5DA500;
+            color: #fff;
         }
     }
     &.btn__payment {
         margin: 20px auto 0;
     }
     &.btn__faq {
-        width: 240px;
-        height: 60px;
         margin-top: 19px;
+        z-index: 1;
     }
 }
