@@ -65,6 +65,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                padding: 0 0 1px 1px;
                 width: 40px;
                 height: 40px;
                 font-weight: 600;
@@ -75,7 +76,10 @@
                 right: 20px;
                 top: 45px;
                 transform: translateY(-50%);
+                transition: all .4s ease;
             }
+           
+            
             &:hover {
                 &::after {
                     content: '+';
@@ -83,6 +87,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    padding: 0 0 1px 1px;
                     width: 40px;
                     height: 40px;
                     font-weight: 600;
@@ -123,8 +128,8 @@
                         content: '';
                         display: block;
                         position: absolute;
-                        width: 19px;
-                        height: 4px;
+                        width: 18px;
+                        height: 3px;
                         border-radius: 0px;
                         background-color: #F05A22;;
                         right: 30px;
